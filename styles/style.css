@@ -1,0 +1,137 @@
+html, body {
+    color: black;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* MENU */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(98, 14, 177);
+}
+
+ul.menu-items {
+    padding: 0px 50px 10px 25px;
+    list-style-type: none;
+}
+
+ul.menu-items li {
+    margin: 0px 5px 10px 5px;
+    font-size: 20px;
+    padding: 20px;
+    display: inline;
+    float: right;
+}
+
+/* HEADER */
+div#header {
+    text-align: center;
+    height: 100%;
+}
+
+div#header h1 {
+    font-size: 42pt;
+    margin: 0;
+    padding-top: 20%;
+}
+
+div#header p {
+    font-size: 22pt;
+}
+
+div#header button {
+    border: 1px solid rgb(98, 14, 177);
+    background-color: white;
+    color: rgb(98, 14, 177);
+    font-weight: bold;
+}
+
+div#header button:hover {
+    border: 1px solid rgb(98, 14, 177);
+    background-color: rgb(98, 14, 177);
+    color: white;
+    font-weight: bold;
+}
+
+
+/* SKILLS */
+div#skills {
+    text-align: center;
+}
+
+div#skills h1{
+    font-size: 30pt;
+}
+
+div.skills-items {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(98, 14, 177);
+    font-weight: bold;
+}
+
+div.skills-items img {
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    opacity: 1.0;
+}
+
+div.skills-items p {
+    margin-top: 10px;
+}
+
+/* FORM */
+
+div#contato {
+    margin-top: 100px;
+    text-align: center;
+}
+
+div#form {
+    width: 900px;
+    margin: 50px auto;
+}
+
+div#form button {
+    margin-top: 10px;
+}
+
+div#form label {
+display: block;
+font-weight: 600;
+text-align: left;
+}
+
+div#form input {
+    margin-bottom: 30px;
+}
+
+div#form button {
+    border: 1px solid rgb(98, 14, 177);
+    background-color: white;
+    color: rgb(98, 14, 177);
+    font-weight: bold;
+}
+
+div#form button:hover {
+    border: 1px solid rgb(98, 14, 177);
+    background-color: rgb(98, 14, 177);
+    color: white;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
